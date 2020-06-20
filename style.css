@@ -11,6 +11,10 @@ header{
 h1{
 	color: white;
 }
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
 .header_menu{
 	background-color: gray;
 	display: flex;
@@ -70,9 +74,8 @@ footer{
 	main{
 		height: 250px;
 		overflow: hidden;}
-	footer{
-		height: 30px;}
 	.footer_menu{
+		height: 50px;
 		background-color: gray;
 		display: flex;
 		color: white;
@@ -84,4 +87,6 @@ footer{
 		border-radius: 50%;
 		background-color: #7a2b2bbd;
 		font-size: 0.8em;}
+	footer{
+		height: 30px;}
 }
