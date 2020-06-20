@@ -11,7 +11,7 @@ header{
 h1{
 	color: white;
 }
-menu{
+.header_menu{
 	background-color: gray;
 	display: flex;
 	color: white;
@@ -55,20 +55,33 @@ footer{
 	position: fixed;
 	bottom: 0;
 }
+.footer_menu{
+	display: none;
+}
 
 /*スマホ用*/
 @media screen and (max-width:480px) { 
-	menu{
-		background-color: gray;
-		color: white;
-		display: block;
-		padding: 0;}
-	menu li{
-	margin: auto;
-	font-size: 0.8em;}
-	main{
-	height: 250px;
-	overflow: hidden;}
-	footer{
-	height: 30px;}
+	.header_menu{
+		display: none;
 	}
+	menu li{
+		margin: auto;
+		font-size: 0.8em;}
+	main{
+		height: 250px;
+		overflow: hidden;}
+	footer{
+		height: 30px;}
+	.footer_menu{
+		background-color: gray;
+		display: flex;
+		color: white;
+		list-style: none;
+		padding: 0;
+		margin-bottom: 0;}		
+	menu li{
+		margin: auto;
+		border-radius: 50%;
+		background-color: #7a2b2bbd;
+		font-size: 0.8em;}
+}
