@@ -62,14 +62,13 @@ footer{
 		background-color: gray;
 		color: white;
 		display: block;
-		padding: 0;
-	}
+		padding: 0;}
 	menu li{
 	margin: auto;
-	font-size: 0.8em;
-	}
+	font-size: 0.8em;}
 	main{
 	height: 250px;
-	overflow: hidden;
-	}
+	overflow: hidden;}
+	footer{
+	height: 30px;}
 	}
