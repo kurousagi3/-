@@ -61,7 +61,15 @@ footer{
 	menu{
 		background-color: gray;
 		color: white;
-		list-style: none;
-		margin-bottom: 0;
+		display: block;
+		padding: 0;
+	}
+	menu li{
+	margin: auto;
+	font-size: 0.8em;
+	}
+	main{
+	height: 300px;
+	overflow: hidden;
 	}
 	}
