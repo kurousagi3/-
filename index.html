@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+<!-- 	<script type="text/javascript"  src="java.js"></script> -->
+</head>
+<body>
+	<header id="header">
+		<h1>Portfoli Site</h1>
+	</header><!-- /header -->
+	<menu id="main">
+		<li id="myopen1">温泉ｎａｖｉ</li>
+		<li id="myopen2">イタリアン店アクセス</li>
+		<li id="myopen3">しゃぶしゃぶ店トップ</li>
+		<li id="myopen4"></a>道の駅スタンプ集</li>
+	</menu>
+
+	<main>
+		<img id="top_left" src="img/top_left.jpg" alt="扉左">
+		<img id="top_right" src="img/top_right.jpg" alt="扉右">	
+		<iframe name="main" frameborder="0"> </iframe>	
+	</main>
+
+
+		<script>
+			'use script';
+			const target1 =document.getElementById('top_left'),
+				  target2 =document.getElementById('top_right');
+			const myopen1 =document.getElementById('myopen1'),
+			      myopen2 =document.getElementById('myopen2'),
+			      myopen3 =document.getElementById('myopen3'),
+			      myopen4 =document.getElementById('myopen4');
+
+				myopen1.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("onsen.html","main");
+ 	  		 	});
+ 	  		 	myopen2.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("accsess.html","main");
+ 	  		 	});
+ 	  		 	myopen3.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("washoku.html","main");
+ 	  		 	});
+ 	  		 	myopen4.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("michi.html","main");
+ 	  		 	});
+		</script>
+		<footer>
+			<p>Portfoli</p>
+		</footer>
+
+	
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+	background-color: black;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+header{
+	height: 50px;
+}
+h1{
+	color: white;
+}
+menu{
+	background-color: gray;
+	display: flex;
+	color: white;
+	list-style: none;
+	margin-bottom: 0;
+}
+menu li{
+	margin: auto;
+	font-size: 1.2em;
+}
+main{
+	height: 560px;
+	overflow: hidden;
+}
+#top_left{
+	width: 50%;
+	float: left;
+	height: 98%;
+}
+#top_right{
+	width: 50%;	
+	height: 98%;
+	clear: both;
+}
+iframe{
+	height: 510px;
+	width: 100%;
+	margin-top: -98%;
+}
+.open_left{
+	transform: translateX(-102%);
+	transition: 2.0s;
+}
+.open_rigth{
+	transform: translateX(102%);
+	transition: 2.0s;
+}
+footer{
+	height: 50px;
+	z-index: 99;
+	position: fixed;
+	bottom: 0;
+}
+
+/*スマホ用*/
+@media screen and (max-width:480px) { 
+	menu{
+		background-color: gray;
+		color: white;
+		list-style: none;
+		margin-bottom: 0;
+	}
+	}
