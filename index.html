@@ -16,7 +16,7 @@
 		<li id="myopen1">温泉ｎａｖｉ</li>
 		<li id="myopen2">イタリアン店アクセス</li>
 		<li id="myopen3">しゃぶしゃぶ店トップ</li>
-		<li id="myopen4"></a>道の駅スタンプ集</li>
+		<li id="myopen4">道の駅スタンプ集</li>
 	</menu>
 	<main>
 		<img id="top_left" src="img/top_left.jpg" alt="扉左">
@@ -24,12 +24,12 @@
 		<iframe name="main" frameborder="0"> </iframe>	
 	</main>
 		<menu class="footer_menu">
-			<li id="myopen1">温泉ｎａｖｉ</li>
-			<li id="myopen2">イタリアン店アクセス</li>
-			<li id="myopen3">しゃぶしゃぶ店トップ</li>
-			<li id="myopen4"></a>道の駅スタンプ集</li>
+			<li id="myopen5">温泉ｎａｖｉ</li>
+			<li id="myopen6">イタリアン店アクセス</li>
+			<li id="myopen7">しゃぶしゃぶ店トップ</li>
+			<li id="myopen8">道の駅スタンプ集</li>
 		</menu>
-		<p class="footer_p">上のボタンをクリック</p>
+		<p class="footer_p">上のボタンを選択クリック</p>
 		<footer>
 			<p>Portfoli</p>
 		</footer>
@@ -40,7 +40,11 @@
 			const myopen1 =document.getElementById('myopen1'),
 			      myopen2 =document.getElementById('myopen2'),
 			      myopen3 =document.getElementById('myopen3'),
-			      myopen4 =document.getElementById('myopen4');
+			      myopen4 =document.getElementById('myopen4'),
+			      myopen5 =document.getElementById('myopen5'),
+			      myopen6 =document.getElementById('myopen6'),
+			      myopen7 =document.getElementById('myopen7'),
+			      myopen8 =document.getElementById('myopen8');
 
 				myopen1.addEventListener('click',()=>{
 				target1.classList.add('open_left');
@@ -58,6 +62,26 @@
 				open("washoku.html","main");
  	  		 	});
  	  		 	myopen4.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("michi.html","main");
+ 	  		 	});
+ 	  		 	myopen5.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("onsen.html","main");
+ 	  		 	});
+ 	  		 	myopen6.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("accsess.html","main");
+ 	  		 	});
+ 	  		 	myopen7.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				open("washoku.html","main");
+ 	  		 	});
+ 	  		 	myopen8.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
 				open("michi.html","main");

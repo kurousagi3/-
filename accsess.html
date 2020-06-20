@@ -3,13 +3,14 @@
 <head lang="ja">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>イタリアン店アクセスページ</title>
 	<style>
 		*{
 			text-align: center;
 			background-color: black;
 			color: white;
-			word-wrap: break-word;
+			top: 50px;
 		}
 		.point{
 			width: 80%;
@@ -39,6 +40,24 @@
 		img{
 			margin: 30px:;
 		}	
+		/*スマホ用*/
+		@media screen and (max-width:480px) { 
+			body{
+				margin-top: 40%;}
+			h1,h3{
+				margin-top: 50px;
+				font-size: 0.8em;}
+			.point{
+				width: 100%;
+				display: block;}
+			.check{
+				width: 90%;
+				margin: 10px 5px;	
+				background-color: gray;
+				border-radius: 50%;}
+			img{
+				width: 90%;}
+			}	
 	</style>
 </head>
 <body>
