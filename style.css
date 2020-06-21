@@ -84,12 +84,6 @@ footer{
 		display:initial;	
 		width: 50%;
 		clear: both;}
-	.open_left{
-		transform: translateX(-102%);
-		transition: 3.0s;}
-	.open_rigth{
-		transform: translateX(102%);
-		transition: 3.0s;}
 	main{
 		height: 340px;
 		overflow: hidden;}

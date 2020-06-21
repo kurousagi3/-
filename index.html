@@ -21,8 +21,8 @@
 	<main>
 		<img id="top_left" class="pc_l" src="img/top_left.jpg" alt="扉左">
 		<img id="top_right" class="pc_r" src="img/top_right.jpg" alt="扉右">	
-		<img id="top_left" class="mo_l" src="img/top_left2.jpg" alt="扉左">
-		<img id="top_right" class="mo_r" src="img/top_right2.jpg" alt="扉右">	
+		<img id="top_left_m" class="mo_l" src="img/top_left2.jpg" alt="扉左">
+		<img id="top_right_m" class="mo_r" src="img/top_right2.jpg" alt="扉右">	
 		<iframe name="main" frameborder="0"> </iframe>	
 	</main>
 		<menu class="footer_menu">
@@ -38,7 +38,9 @@
 		<script>
 			'use script';
 			const target1 =document.getElementById('top_left'),
-				  target2 =document.getElementById('top_right');
+				  target2 =document.getElementById('top_right'),
+				  target3 =document.getElementById('top_left_m'),
+				  target4 =document.getElementById('top_right_m');
 			const myopen1 =document.getElementById('myopen1'),
 			      myopen2 =document.getElementById('myopen2'),
 			      myopen3 =document.getElementById('myopen3'),
@@ -51,42 +53,58 @@
 				myopen1.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("onsen.html","main");
 				
  	  		 	});
  	  		 	myopen2.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("accsess.html","main");
  	  		 	});
  	  		 	myopen3.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("washoku.html","main");
  	  		 	});
  	  		 	myopen4.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("michi.html","main");
  	  		 	});
  	  		 	myopen5.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("onsen.html","main");
  	  		 	});
  	  		 	myopen6.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("accsess.html","main");
  	  		 	});
  	  		 	myopen7.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("washoku.html","main");
  	  		 	});
  	  		 	myopen8.addEventListener('click',()=>{
 				target1.classList.add('open_left');
 				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
 				open("michi.html","main");
  	  		 	});
 		</script>
