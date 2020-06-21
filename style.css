@@ -30,15 +30,18 @@ main{
 	height: 560px;
 	overflow: hidden;
 }
-#top_left{
+.pc_l{
 	width: 50%;
 	float: left;
 	height: 98%;
 }
-#top_right{
+.pc_r{
 	width: 50%;	
 	height: 98%;
 	clear: both;
+}
+.mo_l,.mo_r{
+	display: none;
 }
 iframe{
 	height: 510px;
@@ -71,23 +74,36 @@ footer{
 	menu li{
 		margin: auto;
 		font-size: 0.8em;}
+	.pc_l,.pc_r{
+		display: none;}
+	.mo_l{
+		display:block;	
+		width: 50%;
+		float: left;}
+	.mo_r{
+		display:block;	
+		float: right;	
+		width: 50%;}
 	main{
-		height: 250px;
+		height: 330px;
 		overflow: hidden;}
 	.footer_menu{
 		height: 50px;
 		background-color: gray;
 		display: flex;
+		z-index: 99;
 		color: white;
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		margin-bottom: 0;}	
+	.footer_p{
+		font-size: 0.8em;}
 	menu li{
 		margin: auto;
 		border-radius: 50%;	
 		background-color: #7a2b2bbd;
 		font-size: 0.8em;}
 	footer{
-		height: 30px;}	
+		display: none;}	
 }
