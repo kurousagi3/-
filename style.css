@@ -85,11 +85,11 @@ footer{
 		float: right;	
 		width: 50%;}
 	main{
-		height: 330px;
+		height: 340px;
 		overflow: hidden;}
 	.footer_menu{
 		height: 50px;
-		background-color: #7b5841;
+		background-color: #3e3530;
 		display: flex;
 		z-index: 99;
 		color: white;
