@@ -82,8 +82,8 @@ footer{
 		float: left;}
 	.mo_r{
 		display:initial;	
-		float: right;	
-		width: 50%;}
+		width: 50%;
+		clear: both;}
 	.open_left{
 		transform: translateX(-102%);
 		transition: 3.0s;}
