@@ -89,7 +89,7 @@ footer{
 		overflow: hidden;}
 	.footer_menu{
 		height: 50px;
-		background-color: gray;
+		background-color: #7b5841;
 		display: flex;
 		z-index: 99;
 		color: white;
@@ -102,7 +102,7 @@ footer{
 	menu li{
 		margin: auto;
 		border-radius: 50%;	
-		background-color: #7a2b2bbd;
+		background-color: #520d0dbd;
 		font-size: 0.8em;}
 	footer{
 		display: none;}	
